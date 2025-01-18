@@ -1,0 +1,35 @@
+The Bank Management System V2.0.2 is a feature-rich online banking solution built using the Python Django web framework. This system automates core banking processes, including account management, deposits, withdrawals, interest calculations, and transaction reporting. Designed for both scalability and efficiency, the system leverages tools like Redis and Celery for background task processing and scheduled operations.
+
+The primary aim of this system is to simplify banking operations while providing users with a smooth and modern interface powered by Tailwind CSS. By supporting multiple account types (e.g., Savings and Current), imposing transaction restrictions, and offering accurate balance updates, the system enhances the reliability of online banking.
+
+Key Features:
+1)Account Management:
+
+Users can create bank accounts (Savings or Current Accounts).
+
+2)Deposits and Withdrawals:
+
+Perform seamless deposit and withdrawal operations with transaction restrictions.
+
+3)Interest Calculation:
+
+Accurate monthly interest calculation based on the account type.
+
+Scheduled tasks using Celery ensure timely interest computation.
+
+4)Transaction Reports:
+
+View transaction history with date range filtering.
+
+Track balance updates after every transaction.
+
+5)Modern UI:
+
+Intuitive and responsive user interface using Tailwind CSS.
+
+6)Scheduled Tasks:
+
+Celery handles scheduled updates for monthly interest and balance adjustments efficiently.
+
+This system is perfect for developers looking to explore Django’s capabilities in building reliable web-based financial applications.
+
